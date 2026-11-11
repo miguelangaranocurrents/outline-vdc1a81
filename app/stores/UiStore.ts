@@ -410,6 +410,8 @@ class UiStore {
       this.secondaryRightSidebar = panel;
     } else {
       this.rightSidebar = panel;
+      // Persist so that closing the panel survives a reload.
+      this.persist();
     }
   };
 
