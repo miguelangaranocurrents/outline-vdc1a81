@@ -1,0 +1,11 @@
+{
+  "name": "outline-e2e",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@currents/playwright": "file:./currents-playwright-2.7.0-main.a8fce8a7.tgz",
+    "@playwright/test": "1.64.1"
+  }
+}
